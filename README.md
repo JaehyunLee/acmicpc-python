@@ -11,10 +11,12 @@
 
 #### Code
 * 0: Hello World
+* 1: Data type
 
 #### Statistics
 * 0: Mean, Medium and Mode
 * 0: Weighted Mean
+* 1: Quartiles
 
 ### 백준 알고리즘
 #### 수학
