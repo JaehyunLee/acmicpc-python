@@ -1,13 +1,9 @@
-import math
+def std(num, data_list):
+    from math import sqrt
+    x_mean = sum(data_list) / num
+    return sqrt(sum([(data_list[i] - x_mean) ** 2 for i in range(num)]) / num)
+
 
 n = int(input())
 x_set = list(map(int, input().split()))
-
-x_mean = sum(x_set) / n
-
-tmp = 0
-for i in range(n):
-    tmp += pow(x_set[i] - x_mean, 2)
-
-x_std = math.sqrt(tmp / n)
-print(round(x_std, 1))
+print(round(std(n, x_set), 1))

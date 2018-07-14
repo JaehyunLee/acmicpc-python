@@ -1,4 +1,7 @@
 # Day 0: Mean, Median, and Mode
+# Mean: 평균
+# Median: 중간값
+# Mode: 최빈값
 
 N = int(input())
 data_set = list(map(int, input().split()))
