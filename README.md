@@ -52,6 +52,7 @@
 
 #### 정렬
 * 수 정렬하기(2750)
+* ACM Craft(1005): Topological Sorting
 
 #### 자료구조
 * 스택(10828)
